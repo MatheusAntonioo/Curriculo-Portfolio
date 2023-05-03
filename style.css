@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+/* zerando o padrão */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "open sans", sans-serif;
+}
+
+body{
+  overflow: hidden;
+}
+
+.background{
+  background-image: url(img/nubelson-fernandes--Xqckh_XVU4-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+
+header{
+  display: flex;
+  justify-content: space-around;
+  max-width: 100%;
+  align-items: center;
+  text-align: center;
+  padding-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.link-header{
+  display: flex;
+  gap: 4rem;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.link-header a{
+  color: #fff;
+  font-size: 14px;
+}
+
+.link-header a:hover{
+  color: #ff4b4b;
+  transition: 0.3s all;
+}
+
+.link-header li:hover{
+  transform: scale(1.2);
+  transition: 0.3s all;
+}
+
+
+.logo i{
+  height: 50px;
+  width: 50px;
+  background: transparent;
+  border: 1px solid #ff4b4b;
+  color: #ff4b4b;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.logo i:hover{
+  transform: scale(1.2);
+  background-color: #ff4b4b;
+  color: #fff;
+  transition: 0.3s;
+}
+
+button{
+  color: #ff4b4b;
+  background: transparent;
+  border: solid 1px #ff4b4b;
+  padding: 5px;
+  border-radius: 17px;
+  font-size: 14px;
+  width: 150px;
+}
+
+button:hover{
+  transform: scale(1.2);
+  color: #fff;
+  background-color: #ff4b4b;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.container-text{
+  padding: 250px 0 0 130px;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+}
+
+.text h3{
+  color: #fff;
+  font-size: 24px;
+}
+
+.text h1{
+  color: #fff;
+  margin-top: 15px;
+  font-size: 48px;
+}
+
+.text span{
+  color: #ff4b4b;
+}
+
+.text p{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 15px;
+}
+
+.social-media i{
+  margin-top: 15px;
+  border-radius: 50%;
+  color: #ff4b4b;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.social-media i:hover{
+  transform: scale(1.2);
+  background-color: #ff4b4b;
+  color: #fff;
+  transition: 0.3s;
+}
