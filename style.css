@@ -100,7 +100,7 @@ button:hover{
   background-color: rgba(0, 0, 0, 0.5);
   height: 83vh;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   align-items: center;
   padding: 0 0 0 130px;
   justify-content: center;
@@ -142,45 +142,6 @@ button:hover{
   color: #fff;
   transition: 0.3s;
 }
-
-/* RESPONSIVO */
-
-@media(max-width: 992px){
-  header{
-    display: list-item;
-    justify-content: right;
-  }
-  .link-header{
-    display: list-item;
-    padding-top: 15px;
-    }
-  
-  .link-header li{
-    padding: 10px;
-  }
-
-  .link-header button{
-    margin-top: 20px;
-  }
-
-  .container-text{
-    grid-template-columns: 1fr;
-    padding: 0 0 0 0;
-  }
-
-  .text{
-    margin: 10px;
-    justify-self: center;
-  }
-
-  .social-media i{
-    padding: 10px;
-    justify-self: center;
-    align-self: center;
-  }
-  
-}
-
 
 /* about me */
 
@@ -321,6 +282,38 @@ main .about{
 /* RESPONSIVO */
 
 @media(max-width: 992px){
+
+  header{
+    display: list-item;
+  }
+  .link-header{
+    display: list-item;
+    padding-top: 15px;
+    }
+  
+  .link-header li{
+    padding: 10px;
+  }
+
+  .link-header button{
+    margin-top: 20px;
+  }
+
+  .container-text{
+    grid-template-columns: 1fr;
+    padding: 0 0 0 0;
+  }
+
+  .text{
+    margin: 10px;
+    justify-self: center;
+  }
+
+  .social-media{
+    justify-self: center;
+    align-items: start;
+  }
+  
   .about img{
     grid-column: 1/-1;
     justify-self: center;
