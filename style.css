@@ -349,7 +349,7 @@ main .about{
 }
 
 .my-courses ul li{
-  cursor: pointer;
+  /* cursor: pointer; */
   border-radius: 6px;
   position: relative;
   padding: 10px;
@@ -378,7 +378,7 @@ main .about{
     font-size: 1.1rem
   }
 
-  .my-courses li::before{
+  /* .my-courses li::before{
     content: "";
     transition: .5s ease-in-out;
     border-radius: 6px;
@@ -416,4 +416,4 @@ main .about{
     height: 100%;
     border-bottom: 2px solid #ff4b4b;
     border-left: 2px solid #ff4b4b;
-  }
+  } */
