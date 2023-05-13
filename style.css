@@ -328,3 +328,92 @@ main .about{
     justify-self: center;
   }
 }
+
+.courses{
+  margin-top: 60px;
+  padding: 60px;
+  background-color: #151515;
+}
+
+.my-courses{
+  color: #fff;
+  padding: 30px;
+}
+
+.my-courses ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-courses ul li{
+  cursor: pointer;
+  border-radius: 6px;
+  position: relative;
+  padding: 10px;
+  display: grid;
+  gap: 30px;
+  text-align: center;
+  align-content: center;
+  width: 400px;
+  height: 400px;
+  background-color: #222;
+  }
+
+  .my-courses ul li i{
+    font-size: 3rem;
+    color: #ff4b4b;
+  }
+
+  .my-courses ul li h3{
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+
+  .my-courses ul li p{
+    color: #707070;
+    font-size: 1.1rem
+  }
+
+  .my-courses li::before{
+    content: "";
+    transition: .5s ease-in-out;
+    border-radius: 6px;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    border-top: 2px solid transparent;
+    border-right: 2px solid transparent;
+  }
+
+  .my-courses li::after{
+    content: "";
+    transition: .5s ease-in-out;
+    border-radius: 6px;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    bottom: -2px;
+    left: -2px;
+    border-bottom: 2px solid transparent;
+    border-left: 2px solid transparent;
+  }
+
+  .my-courses li:hover::before{
+    width: 100%;
+    height: 100%;
+    border-top: 2px solid #ff4b4b;
+    border-right: 2px solid #ff4b4b;
+  }
+
+  .my-courses li:hover::after{
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px solid #ff4b4b;
+    border-left: 2px solid #ff4b4b;
+  }
