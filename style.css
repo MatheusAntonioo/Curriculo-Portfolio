@@ -382,6 +382,7 @@ main .about{
   }
 
   .portfolio{
+    margin-bottom: 60px;
     margin-top: 60px;
     padding: 60px;
     background-color: #151515;
