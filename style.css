@@ -48,8 +48,10 @@ header{
 }
 
 .link-header a:hover{
-  color: #ff4b4b;
-  transition: 0.3s all;
+  background-color: #ff4b4b;
+  border-radius: 25px;
+  color: #fff;
+  transition: 0.2s all;
 }
 
 .link-header li:hover{
@@ -83,17 +85,17 @@ button{
   color: #ff4b4b;
   background: transparent;
   border: solid 1px #ff4b4b;
-  padding: 5px;
-  border-radius: 17px;
+  padding: 10px;
+  border-radius: 25px;
   font-size: 14px;
   width: 150px;
 }
 
 button:hover{
   transform: scale(1.2);
-  color: #fff;
   background-color: #ff4b4b;
-  transition: 0.3s;
+  color: #fff;
+  transition: 0.2s;
   cursor: pointer;
 }
 
