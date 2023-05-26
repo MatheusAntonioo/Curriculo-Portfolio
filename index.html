@@ -10,16 +10,16 @@
 </head>
 <body><!-- BACKGROUND -->
   <div class="background">
-    <header>
+    <header id="home">
       <div class="logo">
         <i class="fa-solid fa-m">A</i>
       </div> <!-- LOGO -->
       <div class="link-header">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Sobre mim</a></li>
-        <li><a href="#">Cursos</a></li>
-        <li><a href="#">Portfólio</a></li>
-        <button>Meu Contato</button>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Sobre mim</a></li>
+        <li><a href="#courses">Cursos</a></li>
+        <li><a href="#portfolio">Portfólio</a></li>
+        <button><a href="mailto:dev.matheus.antonio@outlook.com">Meu contato</a></button>
       </div> <!-- LINK HEADER -->
     </header>
 
@@ -41,7 +41,7 @@
   </div>
   <!-- ABOUT -->
   <main>
-    <section class="about">
+    <section class="about" id="about">
       <div class="about-title">
         <h1>Sobre Mim</h1>
         <p>Este é meu perfil profissional</p>
@@ -71,7 +71,7 @@
             <br>Inglês(en-US) - Nível Intermediário
             <br>Espanhol(es-AR) - Nível Iniciante</p>
         </div>
-        <div class="about-info">
+        <div class="about-info" id="about-info">
           <p><i class="fa-solid fa-calendar-days"></i>18 Jun 1995</p>
           <p><i class="fa-solid fa-location-dot"></i>Florianópolis - SC - Brasil</p>
           <p><i class="fa-solid fa-phone-volume"></i>+55 (48) 9.9904.4144</p>
@@ -82,7 +82,7 @@
   </main>
 
 <!-- COURSES -->
-<section class="courses">
+<section class="courses" id="courses">
   <div class="about-title">
     <h1>Cursos</h1>
     <p>Aqui está todos os cursos que fiz</p>
@@ -156,7 +156,7 @@
 </section>
   
 <!-- PORTFOLIO -->
-<section class="portfolio">
+<section class="portfolio" id="portfolio">
   <div class="about-title">
     <h1>Portfólio</h1>
     <p>Aqui estão todos os projetos que fiz</p>
@@ -182,5 +182,7 @@
   </div>
 </section>
 
+
+<script src="app.js"></script>
 </body>
 </html>

@@ -44,6 +44,7 @@ header{
 .link-header a{
   color: #fff;
   font-size: 14px;
+  padding: 10px;
 }
 
 .link-header a:hover{
