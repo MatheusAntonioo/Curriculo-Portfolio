@@ -331,6 +331,11 @@ main .about{
     justify-self: center;
   }
 }
+@media(max-width: 450px){
+  .my-portfolio ul li{
+    height: 1000px;
+  }
+}
 
 .courses{
   margin-top: 60px;
@@ -408,11 +413,11 @@ main .about{
     position: relative;
     padding: 10px;
     display: grid;
-    gap: 30px;
+    /* gap: 5px; */
     text-align: center;
-    align-content: center;
+    align-items: center;
     width: 400px;
-    height: 400px;
+    min-height: 400px;
     background-color: #222;
     }
   
@@ -424,7 +429,7 @@ main .about{
     .my-portfolio ul li h3{
       color: #fff;
       font-size: 1.6rem;
-      font-weight: 500;
+      /* font-weight: 500; */
     }
   
     .my-portfolio ul li p{
