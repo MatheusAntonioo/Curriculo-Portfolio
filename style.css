@@ -413,11 +413,14 @@ main .about{
     position: relative;
     padding: 10px;
     display: grid;
-    /* gap: 5px; */
+    gap: 5px;
     text-align: center;
-    align-items: center;
+    /* align-items: center; */
+    align-content: center;
+    justify-content: center;
     width: 400px;
     min-height: 400px;
+    max-height: 600px;
     background-color: #222;
     }
   
