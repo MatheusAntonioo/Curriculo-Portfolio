@@ -415,8 +415,7 @@ main .about{
     display: grid;
     gap: 5px;
     text-align: center;
-    /* align-items: center; */
-    align-content: center;
+    align-items: center;
     justify-content: center;
     width: 400px;
     min-height: 400px;
